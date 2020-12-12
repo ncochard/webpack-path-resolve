@@ -20,6 +20,7 @@ path.resolve("./node_modules/lodash"); // returns an incorrect path
 If you do not use a monorepo, and if you do not use the [yarn workspaces](https://classic.yarnpkg.com/en/docs/workspaces/), you do not need this utility.
 
 **The Problem**
+
 If however, you use a mono-repo with a yarn workspace (or `pnpm`), then yarn may hoist some of your dependencies to the root. Whether yarn will hoist a dependency such as `lodash` to the root of the mono-repo depends on whether a different version of that dependency is used by another package within the mono-repo. It is slightly unpredictable.
 ```
 my-monorepo/

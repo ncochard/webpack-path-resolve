@@ -14,9 +14,9 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ncochard/pathResolve.git"
+    "url": "git+https://github.com/ncochard/webpack-path-resolve.git"
   },
-  "homepage": "https://github.com/ncochard/pathResolve#readme",
+  "homepage": "https://github.com/ncochard/webpack-path-resolve#readme",
   "dependencies": {
     "fs": "^0.0.1-security",
     "path": "^0.12.7"

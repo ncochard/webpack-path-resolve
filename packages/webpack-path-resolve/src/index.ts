@@ -23,7 +23,7 @@ export const paths = (requireResolvePath: RequireResolvePathsFnc) => (
 
 /**
  * Return the "resolve" function.
- * This "resolve" function can be used in the webpack.config.js file to find the real location of 
+ * This "resolve" function can be used in the webpack.config.js file to find the real location of
  * any dependency whether that dependency was hoisted by a yarn workspace or not.
  * @param requireResolvePath Pass the function 'require.resolve.paths'.
  */

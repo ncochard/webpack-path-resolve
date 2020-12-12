@@ -1,0 +1,29 @@
+{
+  "name": "webpack-path-resolve",
+  "version": "0.0.1",
+  "description": "A replacement for path.resolve that works with a mono-repo.",
+  "main": "dist/index.js",
+  "scripts": {
+    "prebuild": "yarn lint",
+    "build": "tsc",
+    "lint": "eslint --ext .ts src/ --fix",
+    "clean": "rimraf dist",
+    "purge": "rimraf dist node_modules"
+  },
+  "author": "Nicolas Cochard (nicolas@cochard.co.uk)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ncochard/pathResolve.git"
+  },
+  "homepage": "https://github.com/ncochard/pathResolve#readme",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.12",
+    "rimraf": "^3.0.2",
+    "typescript": "^3.8.3"
+  }
+}

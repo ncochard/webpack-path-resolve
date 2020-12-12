@@ -1,0 +1,35 @@
+{
+  "name": "webpack-path-resolve-monorepo",
+  "version": "0.0.1",
+  "description": "Monorepo for the utility pathResolve.",
+  "private": true,
+  "scripts": {
+    "build": "lerna run build",
+    "lint": "lerna run lint",
+    "test": "lerna run test",
+    "purge": "lerna run purge && rimraf node_modules"
+  },
+  "author": "Nicolas Cochard (nicolas@cochard.co.uk)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ncochard/pathResolve.git"
+  },
+  "homepage": "https://github.com/ncochard/pathResolve#readme",
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ],
+    "nohoist": ["**/@types/*", "**/@types/*/**"]
+  },
+  "devDependencies": {
+    "eslint": "^7.15.0",
+    "@typescript-eslint/eslint-plugin": "^4.9.1",
+    "prettier/@typescript-eslint": "^7.15.0",
+    "@typescript-eslint/parser": "^4.9.1",
+    "eslint-config-prettier": "^7.0.0",
+    "eslint-plugin-prettier": "^3.2.0",
+    "prettier": "^2.2.1",
+    "lerna": "^2.5.1"
+  }
+}

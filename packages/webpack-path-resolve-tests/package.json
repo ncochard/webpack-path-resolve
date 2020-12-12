@@ -1,0 +1,28 @@
+{
+  "name": "webpack-path-resolve-tests",
+  "version": "0.0.1",
+  "description": "Tests for webpack-path-resolve.",
+  "private": true,
+  "scripts": {
+    "pretest": "yarn lint",
+    "lint": "eslint --ext .ts src/ --fix",
+    "test": "jest",
+    "purge": "rimraf node_modules"
+  },
+  "author": "Nicolas Cochard (nicolas@cochard.co.uk)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ncochard/pathResolve.git"
+  },
+  "homepage": "https://github.com/ncochard/pathResolve#readme",
+  "dependencies": {
+    "webpack-path-resolve": "^0.0.1"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.12.10",
+    "@babel/preset-typescript": "^7.12.7",
+    "@types/jest": "^26.0.19",
+    "jest": "^26.6.3"
+  }
+}

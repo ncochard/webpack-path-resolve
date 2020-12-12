@@ -1,6 +1,6 @@
 {
   "name": "webpack-path-resolve",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A replacement for path.resolve that works with a mono-repo.",
   "main": "dist/index.js",
   "scripts": {

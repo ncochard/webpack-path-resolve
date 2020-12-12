@@ -9,7 +9,7 @@ export type RequireResolvePathsFnc = (name: string) => null | string[];
  * locations of a dependency whether that dependency was hoisted by a yarn workspace or not.
  * @param requireResolvePath Pass the function 'require.resolve.paths'.
  */
-export const paths = (requireResolvePath: RequireResolvePathsFnc) => (
+const paths = (requireResolvePath: RequireResolvePathsFnc) => (
   name: string
 ): string[] => {
   const options = requireResolvePath(name);

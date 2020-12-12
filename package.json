@@ -1,6 +1,6 @@
 {
   "name": "webpack-path-resolve-monorepo",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Monorepo for the utility pathResolve.",
   "private": true,
   "scripts": {

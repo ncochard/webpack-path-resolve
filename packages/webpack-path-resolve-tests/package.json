@@ -1,6 +1,6 @@
 {
   "name": "webpack-path-resolve-tests",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Tests for webpack-path-resolve.",
   "private": true,
   "scripts": {
@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/ncochard/pathResolve#readme",
   "dependencies": {
-    "webpack-path-resolve": "^0.0.1"
+    "webpack-path-resolve": "^0.0.2"
   },
   "devDependencies": {
     "@babel/preset-env": "^7.12.10",
